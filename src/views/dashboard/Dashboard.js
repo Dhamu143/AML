@@ -3,7 +3,7 @@ import { CCard, CCardBody, CCardHeader, CCol, CRow } from "@coreui/react";
 import { CChartPie } from "@coreui/react-chartjs";
 import ReactApexChart from "react-apexcharts";
 
-const MainDashboard = () => {
+const Dashboard = () => {
   const [state, setState] = React.useState({
     series: [
       {
@@ -35,21 +35,21 @@ const MainDashboard = () => {
       },
       xaxis: {
         categories: [
-          "2023-09-17",
-          "2023-09-18",
-          "2023-09-19",
-          "2023-09-20",
-          "2023-09-21",
-          "2023-10-01",
-          "2023-10-10",
-          "2023-10-15",
-          "2023-10-20",
-          "2023-10-25",
-          "2023-11-01",
-          "2023-11-05",
-          "2023-11-10",
-          "2023-11-15",
-          "2023-11-20",
+          "2024-09-17",
+          "2024-09-18",
+          "2024-09-19",
+          "2024-09-20",
+          "2024-09-21",
+          "2024-10-01",
+          "2024-10-10",
+          "2024-10-15",
+          "2024-10-20",
+          "2024-10-25",
+          "2024-11-01",
+          "2024-11-05",
+          "2024-11-10",
+          "2024-11-15",
+          "2024-11-20",
         ],
       },
       fill: {
@@ -176,4 +176,4 @@ const MainDashboard = () => {
   );
 };
 
-export default MainDashboard;
+export default Dashboard;
